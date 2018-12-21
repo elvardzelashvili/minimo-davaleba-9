@@ -25,7 +25,7 @@
          
     }
 
-   
+  
 }
 
 
@@ -59,7 +59,7 @@
  }
  .buttonr {
 
-    width: 120px;
+    width: calc(120px - 10px);
     height: 30px;
     line-height: 20px;
     font-size: $fonts14;

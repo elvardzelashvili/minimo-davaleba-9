@@ -51,6 +51,8 @@ header {
 }
  img:hover {
      @include transform(20);
+     opacity: 0.5;
+
  }
 .box {
     @include flex();  

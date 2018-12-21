@@ -85,7 +85,8 @@ header {
     color: #cacaca; }
 
 img:hover {
-  transform: rotate(20deg); }
+  transform: rotate(20deg);
+  opacity: 0.5; }
 
 .box {
   display: flex;
@@ -170,7 +171,7 @@ img:hover {
     .container img {
       width: 250px; }
   .buttonr {
-    width: 120px;
+    width: calc(120px - 10px);
     height: 30px;
     line-height: 20px;
     font-size: 14px; } }
