@@ -1,0 +1,20 @@
+
+  @mixin flex()
+   {
+   
+    display: flex;
+  }
+  
+
+  @mixin justify-content($property)
+   {
+   
+    justify-content: $property;
+  }
+ 
+  
+  @mixin align-items($property)
+  {
+  
+    align-items: $property;
+ }

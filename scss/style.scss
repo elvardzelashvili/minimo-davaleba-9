@@ -1,0 +1,120 @@
+@import "reset.scss";
+@import "variables.scss";
+@import "private.scss";
+@import "mixins.scss";
+
+
+.maincontainer {
+    @extend %maincontainer;
+}
+// header start
+header {
+    @extend %centerdiv; 
+    @include flex(); 
+    @include justify-content (space-between);
+    margin-top: 55px;
+
+
+    a {
+        color:$color02;
+    }
+    a:hover 
+        {
+            color: $color01;
+        }
+     h1{
+        font-size:$fonts30;
+        color:$color01;
+        @extend %uppercase;     
+    }
+
+    ul {
+        @include flex();  
+        @include align-items (center);
+        width: 500px;
+        @include justify-content (space-between);
+
+    }
+    
+    li
+    {
+        font-size:$fonts14;
+        color:$color02;
+        @extend %uppercase;     
+    }
+    
+}
+// header ends 
+
+// content start
+.container {
+    @extend %centerdiv;
+}
+
+.box {
+    @include flex();  
+    @include align-items (center);
+    @include justify-content (space-around);
+    margin-top: 55px;
+    
+
+ h2 {
+     @extend %margin;
+     font-size: $fonts20;
+     color: $color03;    
+ }
+ h2:hover 
+        {
+            color: $color01;
+        }
+ p {
+    margin-bottom: 30px;
+    font-size: $fonts14;
+    color: $color03;
+    width: 420px;
+    word-spacing: 1px;
+    line-height: 20px;
+
+}
+p:hover 
+        {
+            color: $color01;
+        }
+}
+.buttoncenter
+{
+width: 1170px;
+margin: auto;
+margin-top: 30px;
+}
+.buttonr {
+   
+    width: 120px;
+    height: 50px;
+    background:transparent;
+    border: 2px solid $color03;
+    margin: auto;
+    text-align: center;
+    color: $color03;
+    line-height: 50px;
+    cursor: pointer;
+
+}
+.buttonr:hover 
+{
+    color: $color01;
+    border: 2px solid $color02;
+    background:transparent;
+
+    
+}
+
+.testif {
+    width: 200px;
+    height: 70px;
+    background:red;
+ h2 {
+     font-size: 20px;
+     color:green;
+ }
+}
