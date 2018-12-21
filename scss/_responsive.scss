@@ -43,19 +43,26 @@
         }
     }
  .container {
-     width: 320px;
+     width: 280px;
      margin:auto;
      width: 95%;
  
      .box {
-         width: 320px;
-     }
+        width: 280px;
+    }
      p {
-         width: 300px;
-     }
+        width: 250px;
+    }
       img {
-         width: 320px;
-     }
+        width: 250px;
+    }
+ }
+ .buttonr {
+   
+    width: 120px;
+    height: 30px;
+    line-height: 20px;
+    font-size: $fonts14;
  }
    
 }

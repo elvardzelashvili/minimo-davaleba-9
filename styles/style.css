@@ -144,12 +144,17 @@ header {
   header ul {
     display: none; }
   .container {
-    width: 320px;
+    width: 280px;
     margin: auto;
     width: 95%; }
     .container .box {
-      width: 320px; }
+      width: 280px; }
     .container p {
-      width: 300px; }
+      width: 250px; }
     .container img {
-      width: 320px; } }
+      width: 250px; }
+  .buttonr {
+    width: 120px;
+    height: 30px;
+    line-height: 20px;
+    font-size: 14px; } }
