@@ -78,8 +78,8 @@ header {
   header ul {
     display: flex;
     align-items: center;
-    width: 500px;
-    justify-content: space-between; }
+    width: 620px;
+    justify-content: space-around; }
   header li {
     font-size: 14px;
     color: #cacaca; }

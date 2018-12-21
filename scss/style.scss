@@ -30,8 +30,8 @@ header {
     ul {
         @include flex();  
         @include align-items (center);
-        width: 500px;
-        @include justify-content (space-between);
+        width: 620px;
+        @include justify-content (space-around);
 
     }
     
