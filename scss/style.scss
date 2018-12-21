@@ -61,7 +61,15 @@ header {
      font-size: $fonts20;
      color: $color03; 
   
+    
     }
+    h3 {
+        @extend %margin;
+        font-size: $fonts14;
+        color: $color03; 
+        @extend %uppercase;
+     
+       }
  h2:hover 
         {
             color: $color01;

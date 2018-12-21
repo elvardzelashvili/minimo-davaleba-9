@@ -57,10 +57,10 @@ button {
   margin: auto;
   width: 95%; }
 
-header h1, header li {
+header h1, header li, .box h3 {
   text-transform: uppercase; }
 
-.box h2 {
+.box h2, .box h3 {
   margin-bottom: 30px;
   margin-top: 30px; }
 
@@ -91,6 +91,9 @@ header {
   margin-top: 55px; }
   .box h2 {
     font-size: 20px;
+    color: #626262; }
+  .box h3 {
+    font-size: 14px;
     color: #626262; }
   .box h2:hover {
     color: black; }
