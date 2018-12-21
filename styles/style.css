@@ -104,6 +104,12 @@ img:hover {
     color: black;
     text-decoration-style: solid;
     text-shadow: 2px 2px 5px; }
+  .box h3:hover {
+    text-decoration: underline;
+    text-decoration-color: green;
+    color: black;
+    text-decoration-style: solid;
+    text-shadow: 2px 2px 4px red; }
   .box p {
     margin-bottom: 30px;
     font-size: 14px;
