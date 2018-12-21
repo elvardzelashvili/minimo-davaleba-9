@@ -52,7 +52,7 @@ button {
   width: 100%;
   padding: 20px; }
 
-.container {
+header, .container {
   max-width: 1170px;
   margin: auto;
   width: 95%; }
@@ -84,6 +84,9 @@ header {
     font-size: 14px;
     color: #cacaca; }
 
+img:hover {
+  transform: rotate(20deg); }
+
 .box {
   display: flex;
   align-items: center;
@@ -96,7 +99,11 @@ header {
     font-size: 14px;
     color: #626262; }
   .box h2:hover {
-    color: black; }
+    text-decoration: underline;
+    text-decoration-color: #cacaca;
+    color: black;
+    text-decoration-style: solid;
+    text-shadow: 2px 2px 5px; }
   .box p {
     margin-bottom: 30px;
     font-size: 14px;

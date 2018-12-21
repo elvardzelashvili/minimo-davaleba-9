@@ -19,3 +19,41 @@
     align-items: $property;
  }
 
+
+ @mixin transform($value) 
+ {
+
+  @if $value == 20  {
+
+   transform: rotate(20deg);
+  
+
+  } @else if $value == 40 {
+    transform: rotate(40deg)
+  }
+}
+
+
+@mixin text($property) 
+{
+
+ @if $property == $fonts20
+  {
+
+  text-decoration: underline;
+  text-decoration-color: $color02;
+  color: $color01;
+  text-decoration-style: solid;
+  text-shadow: 2px 2px 5px ;
+
+
+ } 
+   @else if $property == $fonts30 {
+    text-decoration: underline;
+    text-decoration-color: green;
+    color: $color01;
+    text-decoration-style: solid;
+    text-shadow: 2px 2px 1px green;
+
+ }
+}
