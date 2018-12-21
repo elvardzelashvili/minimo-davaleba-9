@@ -3,20 +3,19 @@
 @import "private.scss";
 @import "mixins.scss";
 
-
 .maincontainer {
     @extend %maincontainer;
 }
 // header start
 header {
-    @extend %centerdiv; 
+    // @extend %centerdiv; 
     @include flex(); 
     @include justify-content (space-between);
     margin-top: 55px;
-
-
+    
     a {
         color:$color02;
+    
     }
     a:hover 
         {
@@ -56,13 +55,13 @@ header {
     @include align-items (center);
     @include justify-content (space-around);
     margin-top: 55px;
-    
 
  h2 {
      @extend %margin;
      font-size: $fonts20;
-     color: $color03;    
- }
+     color: $color03; 
+  
+    }
  h2:hover 
         {
             color: $color01;
@@ -83,7 +82,7 @@ p:hover
 }
 .buttoncenter
 {
-width: 1170px;
+max-width: 1170px;
 margin: auto;
 margin-top: 30px;
 }
@@ -98,6 +97,8 @@ margin-top: 30px;
     color: $color03;
     line-height: 50px;
     cursor: pointer;
+    
+
 
 }
 .buttonr:hover 
@@ -105,16 +106,6 @@ margin-top: 30px;
     color: $color01;
     border: 2px solid $color02;
     background:transparent;
-
     
 }
-
-.testif {
-    width: 200px;
-    height: 70px;
-    background:red;
- h2 {
-     font-size: 20px;
-     color:green;
- }
-}
+@import "responsive.scss";

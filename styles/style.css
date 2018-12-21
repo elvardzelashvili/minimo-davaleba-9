@@ -52,7 +52,7 @@ button {
   width: 100%;
   padding: 20px; }
 
-header, .container {
+.container {
   max-width: 1170px;
   margin: auto;
   width: 95%; }
@@ -105,7 +105,7 @@ header {
     color: black; }
 
 .buttoncenter {
-  width: 1170px;
+  max-width: 1170px;
   margin: auto;
   margin-top: 30px; }
 
@@ -125,10 +125,31 @@ header {
   border: 2px solid #cacaca;
   background: transparent; }
 
-.testif {
-  width: 200px;
-  height: 70px;
-  background: red; }
-  .testif h2 {
-    font-size: 20px;
-    color: green; }
+@media only screen and (max-width: 950px) {
+  header {
+    justify-content: space-around; }
+    header ul {
+      justify-content: space-around;
+      width: 350px; }
+  .box {
+    flex-wrap: wrap; } }
+
+@media only screen and (max-width: 768px) {
+  header h1 {
+    font-size: 20px; } }
+
+@media only screen and (max-width: 450px) {
+  header h1 {
+    font-size: 14px; }
+  header ul {
+    display: none; }
+  .container {
+    width: 320px;
+    margin: auto;
+    width: 95%; }
+    .container .box {
+      width: 320px; }
+    .container p {
+      width: 300px; }
+    .container img {
+      width: 320px; } }

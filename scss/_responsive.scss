@@ -1,0 +1,61 @@
+@media only screen and (max-width: 950px)
+ {
+     header 
+     {  @include justify-content (space-around);
+
+         ul {
+            @include justify-content (space-around);
+            width: 350px;
+        }
+    }
+
+    .box {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 768px)
+ {
+     header 
+     {  
+         
+        h1 {
+            font-size: $fonts20;
+        }
+         
+    }
+
+   
+}
+
+
+@media only screen and (max-width: 450px)
+ {
+     header 
+     {  
+         
+        h1 {
+            font-size: $fonts14;
+        }
+         
+        ul {
+            display: none;
+        }
+    }
+ .container {
+     width: 320px;
+     margin:auto;
+     width: 95%;
+ 
+     .box {
+         width: 320px;
+     }
+     p {
+         width: 300px;
+     }
+      img {
+         width: 320px;
+     }
+ }
+   
+}
