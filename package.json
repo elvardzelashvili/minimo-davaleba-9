@@ -19,7 +19,7 @@
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-sass": "^4.0.2",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.13.1"
   },
   "dependencies": {
     "y18n": "^3.2.2"
